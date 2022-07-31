@@ -1,0 +1,72 @@
+.container {
+  margin: 10px;
+  width: fit-content;
+  height: 500px;
+  background-color: #edefed;
+  box-shadow: 5px 5px 10px rgb(169, 169, 169);
+  border-radius: 8px;
+  text-align: center;
+}
+.image {
+  width: 300px;
+  height: 300px;
+}
+.container:hover {
+  box-shadow: 10px 10px 15px rgb(169, 169, 169);
+}
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons a {
+  text-decoration: none;
+  background-color: #008cba;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+.buttonsshop {
+  display: flex;
+}
+.removebutton {
+  width: fit-content;
+  margin-left: 3px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.trash {
+  width: 16px;
+  background-color: white;
+}
+.minbutton {
+  margin-left: 3px;
+}
+.addbutoon {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.plusbutoon {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.minbutton {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}

@@ -1,0 +1,54 @@
+.content {
+  min-height: 80vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.containter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edefed;
+  box-shadow: 5px 5px 10px rgb(169, 169, 169);
+  margin-top: 20px;
+}
+.containter .image {
+  width: 300px;
+  height: 300px;
+}
+.removebutton {
+  width: fit-content;
+  margin-left: 3px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 20px;
+}
+.trash {
+  width: 15px;
+  background-color: white;
+}
+.minbutton {
+  margin-left: 3px;
+}
+
+.plusbutoon {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.minbutton {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 20px;
+}

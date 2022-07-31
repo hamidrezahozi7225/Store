@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.title {
+  text-align: center;
+  margin-top: 26px;
+  color: mediumslateblue;
+  text-decoration: underline;
+}
+.loader {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

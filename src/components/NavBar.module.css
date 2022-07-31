@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #282a35;
+  align-items: center;
+  height: 60px;
+}
+.container a {
+  color: white;
+  text-decoration: none;
+
+}
+.container a :hover {
+  color: silver;
+}
+.container a img:hover{
+  width: 32px;
+}
+.posi img {
+  position: relative;
+}
+.container span {
+  position: absolute;
+  top: 8px;
+  background-color: #f0a737;
+  margin-left: -5px;
+  padding: 1px 6px;
+  border-radius: 50%;
+  color: black;
+}
