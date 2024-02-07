@@ -1,0 +1,57 @@
+.container {
+  margin: 10px;
+  box-shadow: 5px 10px 5px 5px #7a7676;
+  /* border: 1px solid rgb(59, 54, 54); */
+  width: 200px;
+  overflow-x: hidden;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px;
+  position: relative;
+}
+.container img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 8px;
+}
+.container:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.content {
+  padding-bottom: 5px;
+}
+.btn {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+  align-items: center;
+  font-size: large;
+  font-weight: bolder;
+}
+.explain {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.btn div {
+  margin: 0 5px;
+  font-weight: bolder;
+  font-size: x-large;
+  align-items: center;
+}
+.details {
+  margin: 20px 4px 4px 4px;
+  display: flex;
+  justify-content: space-between;
+  width: 20px;
+}
+.btn button {
+  padding: 5px;
+  align-self: flex-start;
+  background-color: rgb(98, 98, 226);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}

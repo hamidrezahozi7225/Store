@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px 5px rgb(81, 81, 68);
+  background-color: rgba(143, 143, 133, 0.463);
+  margin: 30px 15px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 10px;
+  word-break: break-word;
+}
+.container img {
+  background-color: black;
+  border-radius: 50px;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+}
+.picture {
+  /* width: 300px; */
+  margin: 30px;
+}
+.container:hover {
+  box-shadow: 10px 10px 10px 10px rgb(81, 81, 68);
+  cursor: crosshair;
+}
+
+.container p {
+  color: rgb(4, 0, 255);
+  font-size: larger;
+  font-family: monospace;
+  font-weight: bold;
+  /* width: 600px; */
+  margin-top: 40px;
+}
+.container p span {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: black;
+}
+
+.container .detail {
+  display: flex;
+  justify-content: space-between;
+}
+.container .detail span {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.btn {
+  display: flex;
+  justify-content: start;
+  margin-top: 80px;
+  align-items: center;
+}
+.btn div {
+  margin: 0 5px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.btn button {
+  padding: 10px;
+  background-color: rgb(98, 98, 226);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contentBascket {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 820px) {
+  .container {
+    display: block;
+    background-color: white;
+    box-shadow: none;
+  }
+  .picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container h1 {
+    font-size: medium;
+  }
+  .container p {
+    font-size: small;
+    display: none;
+  }
+  .container p span {
+    font-size: smaller;
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .container .detail span {
+    font-size: smaller;
+    font-weight: 300;
+  }
+}

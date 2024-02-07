@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  margin: 20px 0px;
+  justify-items: start;
+  width: 20%;
+}
+.container ul {
+  list-style-type: none;
+  margin-right: 25px;
+  padding: 10px;
+  box-shadow: 2px 8px 5px 5px #7a7676;
+}
+.container li {
+  padding: 10px;
+}
+.selected {
+  background-color: rgb(246, 135, 66);
+}
+
+.container li:hover {
+  background-color: rgb(246, 135, 66);
+  cursor: pointer;
+}
+
+.search {
+  margin: 20px 20px 10px 20px;
+}
+.search input {
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 6px;
+}
+.search button {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #ff8e3d;
+}
+.search button:hover {
+  cursor: pointer;
+  background-color: #fc7210;
+}
+.mobileSidebar {
+  display: none;
+}
+
+@media screen and (max-width: 820px) {
+  .container {
+    position: relative;
+  }
+  .sidebar {
+    position: static;
+    right: 10px;
+    /* width: 400px; */
+  }
+  .sidebarDetail {
+    position: absolute;
+    right: 10px;
+    background-color: white;
+  }
+  .mobileSidebar {
+    position: absolute;
+    right: 10px;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .mobileSidebar {
+    display: block;
+  }
+  .sidebarDetail {
+    display: none;
+  }
+}
